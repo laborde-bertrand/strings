@@ -1,0 +1,12 @@
+Gullit = 'Ruud Gullit'
+Basten = 'Marco van Basten'
+Goal1 = '32'
+Goal2 = '54'
+scorers = 'Gullit ' + str(Goal1) + ',' + ' Basten ' + str(Goal2)
+report = f'{Gullit} scored in the {Goal1}nd minute \n{Basten} scored in the {Goal2}th minute'
+player = 'Frank Rijkaard'
+firstname = player[:5]
+last_name_len = len(player[6:])
+name_short = player[0] + '. ' + player[6:]
+chant = f'{firstname}! ' * int(len(firstname)-1) + f'{firstname}!'
+good_chant = chant[-1] != ' '
